@@ -1,0 +1,70 @@
+/* Style for the testimonial container */
+.testimonial-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  /* Style for individual testimonial */
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial-image img {
+    width: 100px; /* Set the desired image width */
+    height: 100px; /* Set the desired image height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content {
+    width: 100%;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .testimonial-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .testimonial-buttons button {
+    padding: 8px 16px;
+    margin: 0 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .testimonial-buttons button:hover {
+    background-color: yellow;
+  }
+  
+  /* Add any additional styles as needed */
+  
